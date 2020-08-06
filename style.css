@@ -1,10 +1,10 @@
 :root {
-  --5: #696969;
-  --4: #808080;
-  --3: #a9a9a9;
-  --2: #c0c0c0;
-  --1: #d3d3d3;
-  --0: #dcdcdc;
+  --five: #696969;
+  --four: #808080;
+  --three: #a9a9a9;
+  --two: #c0c0c0;
+  --one: #d3d3d3;
+  --zero: #dcdcdc;
 }
 
 /* reset */
@@ -15,20 +15,21 @@
 }
 
 html {
-  font-size: 1.125rem;   /* 18px */
+  font-size: 1.125rem;
 }
+
 body {
   font-family: "Elena", sans-serif;
 }
 
-/* default */ 
+/* default */
 
 a {
   text-decoration: none;
   color: inherit;
 }
 
-/* reuse */ 
+/* reuse */
 
 .grid {
   display: grid;
@@ -53,25 +54,27 @@ a {
   text-align: center;
 }
 */
+
 /* styles */
 
 .container {
   display: grid;
-  grid-auto-columns: repeat(autofill, minmax(240px, 1fr));
 }
 
 /* nav */
 nav {
   justify-content: space-between;
   height: 15vh;
-  background-color: var(--5);
+  background-color: var(--five);
   position: relative;
 }
-.logo-box{
+
+.logo-box {
   width: 15%;
   background-color: red;
   transform: translateX(2.125rem);
 }
+
 .nav-links {
   width: 45%;
   height: 55%;
@@ -79,8 +82,9 @@ nav {
   position: absolute;
   top: 42%;
   left: 43%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
 }
+
 .search {
   width: 30%;
   background-color: tomato;
@@ -89,10 +93,10 @@ nav {
 
 /* latest-articles */
 
-.latest-articles{
-  grid-auto-rows: repeat(10, 1fr);
-  grid-auto-columns: repeat(2, 1fr);
-  background-color: var(--0);
+.latest-articles {
+  grid-template-rows: repeat(10, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  background-color: var(--zero);
   height: 250vh;
 }
 
@@ -102,17 +106,26 @@ nav {
   position: relative;
   border: 1px solid red;
 }
+
 .section-title {
   width: 43.594vw;
   height: 8.594vw;
-  background-color: var(--5);
+  background-color: var(--five);
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(8%, -30%);
-  clip-path: polygon(
-    0 0, 100% 0, 100% 50%, 70% 50%, 70% 100%, 30% 100%, 30% 50%, 0 50%
-  )
+  clip-path:
+    polygon(
+      0 0,
+      100% 0,
+      100% 50%,
+      70% 50%,
+      70% 100%,
+      30% 100%,
+      30% 50%,
+      0 50%
+    );
 }
 
 #card1 {
@@ -134,4 +147,3 @@ nav {
   grid-column: 2 / 2;
   grid-row: 6 / 10;
 }
-

@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'MijaW03';
+    src: url('MijaW03-Bold.woff2') format('woff2'),
+        url('MijaW03-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MijaW03';
+    src: url('MijaW03-Regular.woff2') format('woff2'),
+        url('MijaW03-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Elena';
+    src: url('Elena-Regular.woff2') format('woff2'),
+        url('Elena-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

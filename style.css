@@ -6,3 +6,62 @@
   --lightgray: #d3d3d3;
   --gainsboro: #dcdcdc;
 }
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1.125rem;   /* 18px */
+}
+body {
+  font-family: "Elena", sans-serif;
+}
+
+/* default */ 
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* reuse */ 
+
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+/* styles */
+
+.container {
+  display: grid;
+  grid-auto-columns: repeat(autofill, minmax(240px, 1fr));
+}
+
+/* nav */
+nav {
+  justify-content: space-around;
+  height: 15vh;
+  background-color: var(--dimgray);
+}
+.logo-box{
+  width: 5%;
+  background-color: red;
+}
+.nav-links {
+  width: 50%;
+  background-color: limegreen;
+}
+.search {
+  width: 35%;
+  background-color: tomato;
+}
+
+

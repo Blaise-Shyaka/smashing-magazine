@@ -53,6 +53,10 @@ a {
   margin: 0 auto;
 }
 
+.container-padding {
+  padding: 3rem 3.5rem;
+}
+
 /*
 .absolute-center {
   margin: auto;
@@ -190,7 +194,6 @@ nav {
     "card5 card6 card7";
   border: 1px solid red;
   grid-gap: 10px;
-  padding: 3rem 3.5rem;
 }
 
 .cards-article {
@@ -307,4 +310,11 @@ nav {
   height: 1rem;
   margin: 2rem auto;
   background-color: var(--ten);
+}
+
+.new-on-smashing-tv {
+  background-color: var(--thirteen);
+  width: 90%;
+  margin: 1rem auto;
+  border-radius: 6px;
 }

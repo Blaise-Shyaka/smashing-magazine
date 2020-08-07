@@ -93,31 +93,43 @@ a {
 /* nav */
 nav {
   justify-content: space-between;
+  align-items: center;
   height: 15vh;
-  background-color: var(--five);
+  background-color: var(--ten);
   position: relative;
 }
 
 .logo-box {
   width: 15%;
-  background-color: red;
+  height: 3.2rem;
+  background-color: var(--two);
   transform: translateX(2.125rem);
 }
 
 .nav-links {
   width: 45%;
   height: 55%;
-  background-color: limegreen;
   position: absolute;
-  top: 42%;
+  top: 50%;
   left: 43%;
   transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-links-element {
+  width: 10%;
+  height: 1.5rem;
+  background-color: var(--nine);
 }
 
 .search {
   width: 30%;
-  background-color: tomato;
+  height: 3rem;
+  background-color: var(--seven);
   transform: translateX(-2.125rem);
+  border-radius: 5px;
 }
 
 /* latest-articles */
@@ -280,12 +292,11 @@ nav {
     "card1 card2 card3"
     "members members card4"
     "card5 card6 card7";
-  border: 1px solid red;
   grid-gap: 10px;
 }
 
 .cards-article {
-  background-color: var(--one);
+  background-color: var(--two);
   padding: 1rem;
 }
 

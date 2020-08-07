@@ -56,8 +56,12 @@ a {
 }
 .box-animate {
   transform: rotateZ(-13deg);
-  transform-origin: 0 100px;
-  box-shadow: 0.1rem 1rem 8em .1em rgba(225, 225, 225, .6)
+  transform-origin: 0 80px;
+  box-shadow: 0.1rem 1rem 8em .1em rgba(225, 225, 225, .6);
+  background-color: var(--fifteen);
+  border-radius: 7px;
+  border: 5px solid var(--zero);
+
 }
 .box-animate:hover {
   transform: rotate(0);
@@ -166,30 +170,29 @@ nav {
   width: 90%;
   height: 90%;
   /* border: 0.5px solid tomato; */
-  grid-auto-rows: 2fr 3fr 1fr 3fr;
   grid-template-areas: 
+    "."
     "ctop"
-    "ctop"
-    "heading"
+    "."
     "heading"
     "heading"
     "hashtags"
     "arrow"
     "arrow"
-    "arrow";  
+    ".";  
 }
 .card-top {
   grid-area: ctop;
 }
 .heading {
   grid-area: heading;
-  background-color: var(--zero);
+  color: var(--zero);
   font-family: 'MijaW03';
   font-weight: bold;
-  font-size: 1.3rem;
+  font-size: 3.312vw;
   width: 80%;
   height: 65%;
-  text-align: center;
+ 
 }
 .hash-tags {
   grid-area: hashtags;
@@ -246,9 +249,8 @@ nav {
 }
 
 .author-img {
-    width: 100px;
-    height: 100px;
-    background-color: var(--zero);
+    width: 90px;
+    height: 90px; 
 }
 
 .author-name {

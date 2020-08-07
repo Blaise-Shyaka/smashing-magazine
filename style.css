@@ -429,7 +429,7 @@ nav {
 
 .redirection-links {
   height: 10rem;
-  background-color: var(--one);
+  /* background-color: var(--one); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -439,4 +439,47 @@ nav {
   width: 20%;
   height: 1.5rem;
   background-color: var(--seven);
+}
+
+.book-style-top {
+  background-color: var(--twelve);
+  padding: 4rem;
+}
+
+.book-style-ship-now-top {
+  width: 30%;
+  height: 1.5rem;
+  margin: 0 auto;
+  background-color: var(--ten);
+}
+
+.book-style-title-top {
+  width: 65%;
+  height: 5rem;
+  margin: 3rem auto;
+  background-color: var(--two);
+}
+
+.book-style-content-top p{
+  width: 58%;
+  height: 0.8rem;
+  margin: 0.5rem auto;
+  background-color: var(--eight);
+}
+
+.book-style-button-top {
+  width: 20%;
+  height: 3.5rem;
+  margin: 3rem auto;
+  background-color: var(--four);
+  border-radius: 6px;
+}
+
+.book-style-image-top {
+  width: 35rem;
+  height: 30rem;
+  margin: 3rem auto;
+  background-color: var(--seven);
+  border-radius: 50%;
+  clip-path: polygon(12% 92%, 87% 92%, 88% 8%, 80% 8%, 71% 9%, 62% 9%, 57% 9%, 48% 9%, 43% 9%, 35% 9%, 29% 9%, 22% 40%, 23% 47%, 22% 54%, 22% 66%, 23% 74%, 22% 82%, 22% 88%);
 }

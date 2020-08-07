@@ -1,10 +1,20 @@
 :root {
-  --five: #696969;
-  --four: #808080;
-  --three: #a9a9a9;
-  --two: #c0c0c0;
-  --one: #d3d3d3;
-  --zero: #dcdcdc;
+--fifteen: #000;
+--fourteen: #101010;
+--thirteen: #202020;
+--twelve: #303030;
+--eleven: #505050;
+--ten:#696969;
+--nine:  #888888;
+--eight: #A0A0A0;
+--seven: #B0B0B0;
+--six:  #BEBEBE;
+--five: #C8C8C8;
+--four: #D3D3D3;
+--three:#DCDCDC;
+--two:  #E8E8E8;
+--one:  #F5F5F5;
+--zero: #fff;
 }
 
 /* reset */

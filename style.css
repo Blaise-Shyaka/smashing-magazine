@@ -254,3 +254,8 @@ nav {
   background-color: var(--ten);
 }
 
+.cards-article-arrow {
+  width: 20%;
+  height: 0.3rem;
+  background-color: var(--five);
+}

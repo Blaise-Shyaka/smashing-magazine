@@ -268,20 +268,43 @@ nav {
 .smashing-image {
   width: 20%;
   height: 6rem;
-  margin: 1rem auto;
+  margin: 3rem auto;
   background-color: var(--zero);
 }
 
 .smashing-title {
-  width: 80%;
+  width: 65%;
   height: 2rem;
-  margin: 1rem auto;
-  background-color: var(--two);
+  margin: 3rem auto;
+  background-color: var(--one);
+}
+
+.smashing-content p{
+  width: 80%;
+  height: 0.3rem;
+  margin: 0.3rem auto;
+  background-color: var(--eight);
+}
+
+.smashing-content .p-two{
+  width: 95%;
+}
+
+.smashing-content .p-three{
+  width: 35%;
 }
 
 .smashing-button {
   width: 15%;
   height: 2rem;
-  margin: 1rem auto;
-  background-color: var(--three);
+  margin: 2rem auto;
+  background-color: var(--two);
+  border-radius: 6px;
+}
+
+.smashing-signin {
+  width: 45%;
+  height: 1rem;
+  margin: 2rem auto;
+  background-color: var(--ten);
 }

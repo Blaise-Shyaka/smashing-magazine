@@ -29,13 +29,9 @@ html {
 }
 
 body {
-<<<<<<< HEAD
-  font-family: 'Elena', sans-serif;
-=======
   font-family: "Elena", sans-serif;
   background-color: var(--zero);
   margin-left: 2px;
->>>>>>> 7c10c9f7e5a725df02e563432efc249262736ebe
 }
 
 /* default */

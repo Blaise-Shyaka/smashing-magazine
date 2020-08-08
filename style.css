@@ -465,7 +465,7 @@ nav {
   grid-template-areas: 
   "."
   "head"
-  "content"
+  "contentt"
   "explore-more";
 }
 .smashing-guides .top-wrap .card .wrap h1 {
@@ -473,10 +473,11 @@ nav {
 }
 
 .smashing-guides .top-wrap .card .wrap p {
-  grid-area: content;
+  grid-area: contentt;
 }
 .smashing-guides .top-wrap .card .wrap a {
   grid-area: explore-more;
+}
 .redirection-links {
   height: 10rem;
 

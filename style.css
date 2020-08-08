@@ -138,7 +138,7 @@ nav {
 .latest-articles {
   grid-template-rows: 10% 90%;
   grid-template-columns: repeat(2, 1fr);
-  height: 167vh;
+  height: 200vh;
   grid-template-areas:
     'top top'
     'main main';

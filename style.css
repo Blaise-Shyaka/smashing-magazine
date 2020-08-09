@@ -31,7 +31,7 @@ html {
 body {
   font-family: 'Elena', sans-serif;
   background-color: var(--zero);
-  margin-left: 2px;
+  margin-left: 0.156vw;
 }
 
 /* default */
@@ -142,7 +142,7 @@ nav {
 .latest-articles {
   grid-template-rows: 5% 90%;
   grid-template-columns: repeat(2, 1fr);
-  height: 167vh;
+  height: 149.486317435496474vw;
   grid-template-areas:
     'top top'
     'main main';
@@ -235,7 +235,7 @@ nav {
 .author-name {
   width: 60%;
   height: 40px;
-  margin-right: 40px;
+  margin-right: 3.125vw;
   background-color: var(--three);
 }
 
@@ -266,7 +266,7 @@ nav {
   position: absolute;
   top: 75%;
   left: 10%;
-  font-size: 30px;
+  font-size: 2.344vw;
   color: white;
 }
 
@@ -298,7 +298,7 @@ nav {
     'card1 card2 card3'
     'members members card4'
     'card5 card6 card7';
-  grid-gap: 10px;
+  grid-gap: 0.781vw;
 }
 
 .cards-article {
@@ -429,19 +429,20 @@ nav {
   margin: 1rem auto;
   border-radius: 6px;
 }
-/* book-style-2 */
+/* ======book-style-2====== */
+
 .book-style-2 {
-  height: 50vh;
+  height: 35vw;
   background-color: var(--fourteen);
-  padding: 0 50px;
-  margin: 0 0 50px;
+  padding: 0 3.906vw;
+  margin: 0 0 3.906vw;
   border: 1px solid yellow;
   display: grid; 
   grid-template-columns: 60% 40%;
   grid-template-rows: 1fr;
 }
 .book-style-2 .left {
-  margin-top: 50px;
+  margin-top: 3.906vw;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -449,16 +450,16 @@ nav {
 }
 .book-style-2 .left h2 {
   font-family: 'MijaW03', sans-serif;
-  font-size: 48px;
-  line-height: 55px;
+  font-size: 3.750vw;
+  line-height: 4.297vw;
   text-transform: capitalize;
-  padding: 10px 0;
+  padding: 0.781vw 0;
 
 }
 .book-style-2 .left p {
-  font-size: 20px;
-  line-height: 32px;
-  margin-top: 15px;
+  font-size: 1.563vw;
+  line-height: 2.500vw;
+  margin-top: 1.172vw;
 }
 .book-style-2 .left button {
   width: 50%;
@@ -466,33 +467,34 @@ nav {
   background-color: var(--zero);
   border-radius: 8px;
   font-family: 'MijaW03', sans-serif;
-  font-size: 21px;
-  line-height: 26px;
+  font-size: 1.641vw;
+  line-height: 2.031vw;
 }
 .book-style-2 .right {
   transition: 0.5s ease;
 }
 .book-style-2 .right img {
-  height: 47vh;
+  height: 30vw;
   transform-origin: 0 100%;
-  transform: translate(220px, 16px) rotateZ(-13deg) ;
-  box-shadow: 0 5px 15px rgba(225,225,225,9);
+  transform: translate(13.188vw, 0.5vw) rotateZ(-13deg) ;
+   box-shadow: 0 0.391vw 1.172vw rgba(225,225,225,9); 
+
 }
 .book-style-2 .right img:hover { 
-  height: 47vh;
-  transform: translate(220px, 16px) rotateZ(0) ;
-  box-shadow: 0 5px 15px  rgba(225,225,225,0.9);
+  transform: translate(13.188vw, 0.5vw) rotateZ(0) ;
+  box-shadow: 0 0.391vw 1.172vw  rgba(225,225,225,0.6);
 }
-/* smashing-guides */
+/* ======smashing-guides======= */
+
 .smashing-guides .top-wrap {
-  border: 1px solid blue; 
-  height: 160vh;
+  /* border: 1px solid blue;  */
+  height: 100vw;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 40% 50%;
   grid-template-areas: 
   "c1 c2"
   "c3 news-l";
-  margin-left: 20px;
+  margin-left: 1.563vw;
 }
 .smashing-guides .card {
 
@@ -509,14 +511,18 @@ nav {
   height: 120%;
 }
 #c3 .wrap {
-  grid-template-rows: 15% 25% 12%;
+   grid-template-rows: 15% 25% 12%; 
+}
+#c3 .wrap a {
+  padding-bottom: 3.1347vw;
+  margin-bottom: 3.1347vw;
+  transform: translateY(40px);
 }
 .smashing-guides .top-wrap .newsletter {
   grid-area: news-l;
-  border: 1px solid green;
   height: 108%;
-  margin: 25px;
-  padding: 40px;
+  margin: 1.953vw;
+  padding: 3.125vw;
   background-color: var(--thirteen);
   color: var(--zero);
   border-radius: 18px;
@@ -528,15 +534,15 @@ nav {
 }
 .smashing-guides .top-wrap .newsletter .content h1 {
   font-family: 'MijaW03', sans-serif;
-  font-size: 46px;
-  line-height: 55px;
+  font-size: 3.594vw;
+  line-height: 4.297vw;
   text-transform: capitalize;
 }
 .smashing-guides .top-wrap .newsletter .content p {
   font-family: 'Elena', sans-serif;
-  font-size: 20px;
-  line-height: 32px;
-  margin: 26.2351px 0px
+  font-size: 1.563vw;
+  line-height: 2.500vw;
+  margin: 2.050vw 0px
 }
 /* .smashing-guides .top-wrap .newsletter .content label {
   position: relative;
@@ -567,15 +573,14 @@ nav {
   width: 70%;
   height: 60%;
   background-color: var(--two);
-  transform: translate(60px, 65px);
+  transform: translate(4.688vw, 5.078vw);
   border-radius: 15px;
   cursor: pointer;
 
 }
 .smashing-guides .top-wrap .card .wrap {
-  margin: 25px;
-  padding: 50px;
-  border: 1px solid green;
+  margin: 1.953vw;
+  padding: 3.906vw;
   background-color: var(--thirteen);
   color: var(--zero);
   border-radius: 18px;
@@ -584,30 +589,29 @@ nav {
   width: 91%;
   height: 90%;
   grid-template-columns: 1fr;
-  grid-template-rows: 30% 40% 20%;
+  grid-template-rows: 40% 50 10%;
   grid-template-areas: "head" "txt" "btn";
-}
-.smashing-guides .top-wrap .card .wrap h1 {
-  grid-area: head;
-  font-family: 'MijaW03', sans-serif;
-  font-size: 43px;
 }
 .smashing-guides .top-wrap .card .wrap h1 span {
   display: block;
   color: var(--four);
   font-family: 'Elena', sans-serif;
-  font-size: 15px;
-  line-height: 17.8px;
-  letter-spacing: 2px;
-  margin:0px 0px 7.434px
+  font-size: 1.172vw;
+  line-height: 1.391vw;
+  letter-spacing: 0.156vw;
+  margin:0px 0px 0.781vw
 }
-
+.smashing-guides .top-wrap .card .wrap h1 {
+  grid-area: head;
+  font-family: 'MijaW03', sans-serif;
+  font-size: 3.359vw;
+}
 .smashing-guides .top-wrap .card .wrap p {
   grid-area: txt;
   color: var(--four);
   font-family: 'Elena', sans-serif;
-  font-size: 20px;
-  line-height: 32px;
+  font-size: 1.563vw;
+  line-height: 2.500vw;
 }
 .smashing-guides .top-wrap .card .wrap a {
   grid-area: btn;
@@ -615,10 +619,10 @@ nav {
   background-color: var(--zero);
   color: black;
   font-family: 'MijaW03', sans-serif;
-  font-size: 23px;
-  line-height: 27px;
-  margin: 32px 0px 0px;
-  padding: 10px 0;
+  font-size: 1.797vw;
+  line-height: 2.109vw;
+  margin: 4.500vw 0px 0px;
+  padding: 1vw 0;
   font-weight: bold;
   text-align: center;
   border-radius: 17px;

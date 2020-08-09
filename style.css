@@ -73,6 +73,10 @@ a {
   padding: 3rem 3.5rem;
 }
 
+.white-filter {
+  filter: invert(99%) sepia(61%) saturate(86%) hue-rotate(219deg) brightness(116%) contrast(100%);
+}
+
 /*
 .absolute-center {
   margin: auto;
@@ -425,9 +429,62 @@ nav {
   margin: 1rem auto;
   border-radius: 6px;
 }
+/* book-style-2 */
+.book-style-2 {
+  height: 50vh;
+  background-color: var(--fourteen);
+  padding: 0 50px;
+  margin: 0 0 50px;
+  border: 1px solid yellow;
+  display: grid; 
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 1fr;
+}
+.book-style-2 .left {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  color: white;
+}
+.book-style-2 .left h2 {
+  font-family: 'MijaW03', sans-serif;
+  font-size: 48px;
+  line-height: 55px;
+  text-transform: capitalize;
+  padding: 10px 0;
 
+}
+.book-style-2 .left p {
+  font-size: 20px;
+  line-height: 32px;
+  margin-top: 15px;
+}
+.book-style-2 .left button {
+  width: 50%;
+  height: 13%;
+  background-color: var(--zero);
+  border-radius: 8px;
+  font-family: 'MijaW03', sans-serif;
+  font-size: 21px;
+  line-height: 26px;
+}
+.book-style-2 .right {
+  transition: 0.5s ease;
+}
+.book-style-2 .right img {
+  height: 47vh;
+  transform-origin: 0 100%;
+  transform: translate(220px, 16px) rotateZ(-13deg) ;
+  box-shadow: 0 5px 15px rgba(225,225,225,9);
+}
+.book-style-2 .right img:hover { 
+  height: 47vh;
+  transform: translate(220px, 16px) rotateZ(0) ;
+  box-shadow: 0 5px 15px  rgba(225,225,225,0.9);
+}
 /* smashing-guides */
-.smashing-guides .top-wrap{
+.smashing-guides .top-wrap {
   border: 1px solid blue; 
   height: 160vh;
   grid-template-columns: 1fr 1fr;
@@ -435,7 +492,7 @@ nav {
   grid-template-areas: 
   "c1 c2"
   "c3 news-l";
-  margin-left: 30px;
+  margin-left: 20px;
 }
 .smashing-guides .card {
 
@@ -499,17 +556,17 @@ nav {
   border-radius: 13px;
   height: 18%;
   width: 90%;
+  background-color: var(--five);
 }
 
 .smashing-guides .top-wrap .newsletter img {
   display: block;
   width: 80%;
-  filter: invert(99%) sepia(61%) saturate(86%) hue-rotate(219deg) brightness(116%) contrast(100%);
 }
 .disclim {
   width: 70%;
   height: 60%;
-  background-color: var(--four);
+  background-color: var(--two);
   transform: translate(60px, 65px);
   border-radius: 15px;
   cursor: pointer;
@@ -517,7 +574,7 @@ nav {
 }
 .smashing-guides .top-wrap .card .wrap {
   margin: 25px;
-  padding: 40px;
+  padding: 50px;
   border: 1px solid green;
   background-color: var(--thirteen);
   color: var(--zero);

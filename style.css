@@ -790,7 +790,7 @@ nav {
   grid-template-rows: 40% 40% 10%;
 }
 
-.smashing-guides .top-wrap .newsletter .content h1 {
+.smashing-guides .top-wrap .newsletter .content h2 {
   font-family: 'MijaW03', sans-serif;
   font-size: 3.594vw;
   line-height: 4.297vw;
@@ -855,7 +855,7 @@ nav {
   grid-template-areas: "head" "txt" "btn";
 }
 
-.smashing-guides .top-wrap .card .wrap h1 span {
+.smashing-guides .top-wrap .card .wrap h2 span {
   display: block;
   color: var(--four);
   font-family: 'Elena', sans-serif;
@@ -865,7 +865,7 @@ nav {
   margin: 0 0 0.781vw;
 }
 
-.smashing-guides .top-wrap .card .wrap h1 {
+.smashing-guides .top-wrap .card .wrap h2 {
   grid-area: head;
   font-family: 'MijaW03', sans-serif;
   font-size: 3.359vw;

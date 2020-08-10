@@ -76,6 +76,7 @@ a {
 .white-filter {
   filter: invert(99%) sepia(61%) saturate(86%) hue-rotate(219deg) brightness(116%) contrast(100%);
 }
+
 .clear {
   clear: both;
 }
@@ -191,7 +192,6 @@ nav {
   margin: 5% auto;
   width: 90%;
   height: 90%;
-
   grid-template-areas:
     '.'
     'ctop'
@@ -779,6 +779,7 @@ nav {
   line-height: 2.5vw;
   margin: 2.05vw 0;
 }
+
 .smashing-guides .top-wrap .newsletter .content input {
   border-radius: 13px;
   height: 18%;
@@ -842,6 +843,12 @@ nav {
   grid-template-rows: 15% 25% 12%;
 }
 
+.contacts-links a {
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
 .smashing-guides .top-wrap .card .wrap a {
   grid-area: btn;
   width: 50%;
@@ -872,13 +879,15 @@ footer {
   background-color: black;
   color: white;
 }
+
 /* footer top */
 
 .footer-links-top {
   width: 90%;
   margin: 0 auto;
-  height: 50%;
+  height: 30%;
 }
+
 .footer-links-top-title {
   width: 35%;
   height: 0.8rem;
@@ -914,27 +923,26 @@ footer {
 .footer-links-bottom {
   height: 50%;
 }
+
 .footer-links-bottom .copyrights {
   text-align: center;
   margin: 50px 0;
 }
+
 .float-container {
   float: right;
   position: relative;
-  right: 50%
+  right: 50%;
 }
+
 .contacts-links {
   position: relative;
   left: 50%;
 }
+
 .contacts-links li {
   list-style: none;
   float: left;
   margin: 5px;
   padding: 0 10px 10px 0;
-}
-.contacts-links a {
-  text-decoration: underline;
-  text-transform: capitalize;
-  font-size: 20px;
 }

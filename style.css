@@ -962,3 +962,17 @@ footer {
 
 /* updated float style */
 
+.float-container {
+  float: right;
+  position: relative;
+  right: 50%
+}
+.contacts-links {
+  position: relative;
+  left: 50%;
+}
+.contacts-links li {
+  list-style: none;
+  float: left;
+  margin: 5px;
+}

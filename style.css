@@ -446,6 +446,8 @@ nav {
   background-color: var(--seven);
 }
 
+/* ============= book-style-top styles */
+
 .book-style-top {
   background-color: var(--twelve);
   padding: 4rem;
@@ -462,7 +464,7 @@ nav {
   width: 65%;
   height: 5rem;
   margin: 3rem auto;
-  background-color: var(--two);
+  background-color: var(--zero);
 }
 
 .book-style-content-top p {
@@ -476,7 +478,7 @@ nav {
   width: 20%;
   height: 3.5rem;
   margin: 3rem auto;
-  background-color: var(--four);
+  background-color: var(--two);
   border-radius: 6px;
 }
 
@@ -484,7 +486,7 @@ nav {
   width: 35rem;
   height: 30rem;
   margin: 3rem auto;
-  background-color: var(--seven);
+  background-color: var(--five);
 
   /* border-radius: 50%; */
   clip-path:
@@ -676,8 +678,6 @@ nav {
   margin: 0.3rem 0;
   background-color: var(--five);
 }
-
-/* ============= End of community-links styles ============= */
 
 /* ======book-style-2====== */
 

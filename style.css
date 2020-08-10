@@ -910,4 +910,51 @@ nav {
 
 footer {
   height: 50.938vw;
+  background-color: black;
+  color: white;
 }
+
+/* footer bottom */
+
+.footer-links-bottom {
+  border: 1px solid tomato;
+  height: 50%;
+}
+.footer-links-bottom .copyrights {
+  text-align: center;
+}
+/* .float-container{
+  float: left;
+  position: relative;
+  left: 50%;
+}
+.footer-links-bottom .contacts-links::before,
+.footer-links-bottom .contacts-links::after {
+  content: "";
+  display: table;
+}
+.footer-links-bottom .contacts-links::after {
+  clear: both;
+}
+.footer-links-bottom .contacts-links {
+  width: 70%;
+
+  clear: both;
+  border: 1px solid blue;
+  
+}
+.footer-links-bottom .contacts-links li{
+  list-style: none;
+  float: left;
+  padding: 10px;
+  position: relative;
+  left: -50%;
+}
+/* .footer-links-bottom .contacts-links a:link, */
+/* .footer-links-bottom .contacts-links a
+{
+  text-decoration: underline;
+  text-transform: capitalize;
+} */ 
+
+/* updated float style */

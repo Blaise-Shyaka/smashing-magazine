@@ -13,7 +13,7 @@ It is a design tear down of the Smashing Magazine where we use a heat map to dep
  - GitHub
 
 ## Demo Link:
-[You can find the project live here](https://raw.githack.com/Fanger53/apple-page/features/index.html)
+[You can find the project live here](https://raw.githack.com/Blaise-Shyaka/smashing-magazine/smashing-magazine-design-teardown/index.html)
 
 ## Authors  
 

@@ -568,6 +568,117 @@ nav {
     );
 }
 
+/* ============= Community-links styles ============= */
+
+.community-links {
+  display: grid;
+  grid-template: repeat(4, 1fr)/ repeat(2, 1fr);
+  grid-template-areas:
+    "person-of-week person-of-week"
+    "article1 article2"
+    "article3 article4"
+    "article5 article6";
+  margin-top: 3rem;
+  background-color: var(--one);
+}
+
+.person-of-the-week {
+  grid-area: person-of-week;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.pw-image {
+  width: 15%;
+  height: 10rem;
+  background-color: var(--fourteen);
+  margin: 0.5rem 2rem 0 0;
+}
+
+.pw-content {
+  width: 84%;
+}
+
+.pw-content-title {
+  width: 30%;
+  height: 1.5rem;
+  background-color: var(--ten);
+  margin-bottom: 2rem;
+}
+
+.person-of-the-week p {
+  width: 80%;
+  height: 0.6rem;
+  background-color: var(--five);
+  margin: 0.4rem 0;
+}
+
+.person-of-the-week .pw-p-long {
+  width: 86%;
+}
+
+.cl-card-1 {
+  grid-area: article1;
+}
+
+.cl-card-2 {
+  grid-area: article2;
+}
+
+.cl-card-3 {
+  grid-area: article3;
+}
+
+.cl-card-4 {
+  grid-area: article4;
+}
+
+.cl-card-5 {
+  grid-area: article5;
+}
+
+.cl-card-6 {
+  grid-area: article6;
+}
+
+.community-links-article {
+  width: 80%;
+  margin: 2rem auto;
+  display: flex;
+}
+
+.cl-author-img {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 1.5rem;
+  background-color: var(--twelve);
+}
+
+.cl-author-name {
+  width: 13rem;
+  height: 1rem;
+  margin-bottom: 1rem;
+  background-color: var(--nine);
+}
+
+.cl-content-title {
+  width: 16rem;
+  height: 2.8rem;
+  margin-bottom: 1rem;
+  background-color: var(--fifteen);
+}
+
+.cl-author-content p {
+  width: 22rem;
+  height: 0.5rem;
+  margin: 0.3rem 0;
+  background-color: var(--five);
+}
+
+/* ============= End of community-links styles ============= */
+
 /* ======book-style-2====== */
 
 .book-style-2 {

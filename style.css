@@ -774,16 +774,6 @@ nav {
   height: 120%;
 }
 
-#c3 .wrap {
-  grid-template-rows: 15% 25% 12%;
-}
-
-#c3 .wrap a {
-  padding-bottom: 3.1347vw;
-  margin-bottom: 3.1347vw;
-  transform: translateY(40px);
-}
-
 .smashing-guides .top-wrap .newsletter {
   grid-area: news-l;
   height: 108%;
@@ -861,7 +851,7 @@ nav {
   width: 91%;
   height: 90%;
   grid-template-columns: 1fr;
-  grid-template-rows: 40% 50 10%;
+  grid-template-rows: 40% 40% 10%;
   grid-template-areas: "head" "txt" "btn";
 }
 
@@ -889,6 +879,10 @@ nav {
   line-height: 2.5vw;
 }
 
+#c3 .wrap {
+  grid-template-rows: 15% 25% 12%;
+}
+
 .smashing-guides .top-wrap .card .wrap a {
   grid-area: btn;
   width: 50%;
@@ -897,10 +891,17 @@ nav {
   font-family: 'MijaW03', sans-serif;
   font-size: 1.797vw;
   line-height: 2.109vw;
-  margin: 4.5vw 0 0;
+  margin: 3.5vw 0 0 0;
+  height: 3rem;
   padding: 1vw 0;
   font-weight: bold;
   text-align: center;
   border-radius: 17px;
   cursor: pointer;
+}
+
+#c3 .wrap a {
+  padding-bottom: 3.1347vw;
+  margin-bottom: 3.1347vw;
+  transform: translateY(40px);
 }

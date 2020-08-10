@@ -911,3 +911,39 @@ nav {
 footer {
   height: 50.938vw;
 }
+
+.footer-links-top {
+  border: 1px solid red;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.footer-links-top-title {
+  width: 35%;
+  height: 0.8rem;
+  margin: 2rem auto;
+  background-color: var(--four);
+}
+
+.first-links-list {
+  height: 1.5rem;
+  width: 90%;
+  text-align: center;
+}
+
+.first-links-list li{
+  width: 3.5rem;
+  height: 0.5rem;
+  background-color: var(--five);
+  margin: 0.5rem 0.7rem;
+  float: left;
+  list-style: none;
+}
+
+.first-links-list .medium-size-links {
+  width: 2.5rem;
+}
+
+.small-links-list {
+  width: 42%;
+}

@@ -80,18 +80,6 @@ a {
   clear: both;
 }
 
-/*
-.absolute-center {
-  margin: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-}
-*/
-
 /* styles */
 
 .container {
@@ -149,8 +137,6 @@ nav {
   grid-template-areas:
     'top top'
     'main main';
-
-  /* height: 37.500vw; */
 }
 
 .latest-articles-top {
@@ -984,4 +970,42 @@ footer {
   text-decoration: underline;
   text-transform: capitalize;
   font-size: 20px;
+}
+
+
+.footer-links-top {
+  border: 1px solid red;
+  width: 90%;
+  margin: 0 auto;
+  height: 50%;
+}
+
+.footer-links-top-title {
+  width: 35%;
+  height: 0.8rem;
+  margin: 2rem auto;
+  background-color: var(--three);
+}
+
+.first-links-list {
+  height: 1.5rem;
+  width: 90%;
+  text-align: center;
+}
+
+.first-links-list li {
+  width: 3.5rem;
+  height: 0.5rem;
+  background-color: var(--six);
+  margin: 0.5rem 0.7rem;
+  float: left;
+  list-style: none;
+}
+
+.first-links-list .medium-size-links {
+  width: 2.5rem;
+}
+
+.small-links-list {
+  width: 42%;
 }

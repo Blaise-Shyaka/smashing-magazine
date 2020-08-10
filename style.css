@@ -292,6 +292,8 @@ nav {
   background-color: rgb(120, 120, 120);
 }
 
+/* =========== Cards class styles ========== */
+
 .cards {
   display: grid;
   grid-template: repeat(3, 1fr) / repeat(3, 1fr);
@@ -348,14 +350,14 @@ nav {
 .cards-article-title {
   width: 90%;
   height: 4rem;
-  background-color: var(--fourteen);
+  background-color: var(--fifteen);
   margin: 1.5rem 0;
 }
 
 .cards-article-author {
   width: 40%;
   height: 1.2rem;
-  background-color: var(--thirteen);
+  background-color: var(--eleven);
 }
 
 .cards-article-content {
@@ -366,7 +368,7 @@ nav {
   width: 80%;
   height: 0.6rem;
   margin: 0.2rem 0;
-  background-color: var(--ten);
+  background-color: var(--eight);
 }
 
 .cards-article-arrow {
@@ -413,7 +415,7 @@ nav {
   width: 15%;
   height: 2rem;
   margin: 2rem auto;
-  background-color: var(--five);
+  background-color: var(--four);
   border-radius: 6px;
 }
 
